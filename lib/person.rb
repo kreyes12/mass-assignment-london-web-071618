@@ -5,6 +5,7 @@ class Person
   def initialize(args)
     args.each {|k, v| self.send("#{key}=", value)
   end
+end
   
   
 end
